@@ -16,7 +16,7 @@ function newItem() {
         $("#input").val("");
     }
     //2. Crossing out an item from the list of items:
-    li.on("dbclick", function crossOut() {
+    li.on("dblclick", function crossOut() {
         li.addClass("strike");
     });
 
